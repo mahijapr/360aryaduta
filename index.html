@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Aryaduta &mdash; Mahija 360 Virtual Tour</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+<link rel="manifest" href="fav/site.webmanifest">   
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="logo">
+  <img src="img/logo.png" alt="Aryaduta Bandung">
+</div>
+
+
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-lobby">
+        <li class="text">Lobby</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-lobby-lift">
+        <li class="text">Lobby lift</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-the-ballroom-1">
+        <li class="text">The ballroom #1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-taruma-cafe-1">
+        <li class="text">Taruma cafe #1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-taruma-cafe-2">
+        <li class="text">Taruma cafe #2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-taruma-cafe-3">
+        <li class="text">Taruma cafe #3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-taruma-cafe-4">
+        <li class="text">Taruma cafe #4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-mezanine-1">
+        <li class="text">Mezanine #1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-mezanine-2">
+        <li class="text">Mezanine #2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-mezanine-3">
+        <li class="text">Mezanine #3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-galunggung-1">
+        <li class="text">Galunggung #1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-galunggung-2">
+        <li class="text">Galunggung #2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-business-king-bed-room-">
+        <li class="text">Business king bed room </li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-business-balcony">
+        <li class="text">Business balcony</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-bathroom">
+        <li class="text">Bathroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-gym-entrance">
+        <li class="text">Gym entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-gym-1">
+        <li class="text">Gym #1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-gym-2">
+        <li class="text">Gym #2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-swargaloka-bar">
+        <li class="text">Swargaloka bar</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-swargaloka-1">
+        <li class="text">Swargaloka #1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-swargaloka-6">
+        <li class="text">Swargaloka #6</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-swargaloka-3">
+        <li class="text">Swargaloka #3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-pool-1">
+        <li class="text">Pool #1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-pool-2">
+        <li class="text">Pool #2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-kids-club">
+        <li class="text">Kids club</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-tennis-count-entrance-6">
+        <li class="text">Tennis count entrance #6</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-tennis-count-entrance-gate-5">
+        <li class="text">Tennis count entrance gate #5</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-tennis-court-1">
+        <li class="text">Tennis court #1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-helipad">
+        <li class="text">Helipad</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-acl-entrance-lift">
+        <li class="text">ACL entrance lift</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-acl-1">
+        <li class="text">ACL #1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31-acl-2">
+        <li class="text">ACL #2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-acl-smoking-room">
+        <li class="text">ACL smoking room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-deluxe-room-entrance-2">
+        <li class="text">Deluxe room entrance #2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-deluxe-king-bed-living-room">
+        <li class="text">Deluxe king bed living room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35-deluxe-king-bed-room">
+        <li class="text">Deluxe king bed room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-deluxe-twin-bed-living-room">
+        <li class="text">Deluxe twin bed living room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37-deluxe-twin-bed-room">
+        <li class="text">Deluxe twin bed room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38-aryaduta-suite-living-room">
+        <li class="text">Aryaduta suite living room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39-aryaduta-suite">
+        <li class="text">Aryaduta suite</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40-aryaduta-suite-bathroom">
+        <li class="text">Aryaduta suite bathroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="41-executive-suite-living-room">
+        <li class="text">Executive suite living room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="42-executive-suite-toilet">
+        <li class="text">Executive suite toilet</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="43-executive-suite-bed-room">
+        <li class="text">Executive suite bed room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="44-executive-suite-bathroom">
+        <li class="text">Executive suite bathroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="45-president-suite-entrance">
+        <li class="text">President suite entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="46-president-suite-living-room">
+        <li class="text">President suite living room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="47-president-suite-toilet-2">
+        <li class="text">President suite toilet #2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="48-president-suite-dining-room-2">
+        <li class="text">President suite dining room #2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="49-president-suite-balcony">
+        <li class="text">President suite balcony</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="50-president-suite-bed-room">
+        <li class="text">President suite bed room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="51-president-suite-bathroom">
+        <li class="text">President suite bathroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="52-president-suite-toilet-1">
+        <li class="text">President suite toilet #1</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<div id="toggleDeviceOrientation">
+  <img class="enable" src="img/enable.png">
+  <img class="disable" src="img/disable.png">
+</div>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<!-- DRAG TO MOVE ANIMATION -->
+ <style>
+
+  #dragToMoveAnim {
+    display: none;
+  }
+
+
+  .mobile #dragToMoveAnim {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mobile #dragToMoveAnim.hide {
+    display: none;
+  }
+
+  ._1ls9pnb4 {
+    animation-name: _1ls9pnb2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    }
+    ._1k96axr9q {
+        position: relative;
+    }
+    ._1k96axr17 {
+        transition-property: var(--_1olid3u3r);
+        transition-timing-function: var(--_uf8va11, ease);
+    }
+    ._1k96axr16, ._1k96axr17 {
+        transition-duration: var(--_uf8va10, .3s);
+    }
+    @keyframes _1ls9pnb2 {
+        0% {
+            right: 0%;
+        }
+        50% {
+            right: 20px;
+        }
+        100% {
+            right: 0;
+        }
+    } 
+ </style>
+<div id="dragToMoveAnim">
+  <div class="_1ls9pnb1 _1k96axr2iw _1k96axr28w _1k96axr9q _1k96axr45e _1k96axr2sw" style="display: flex; flex-direction: column;">
+      <span class="_1ls9pnb4 _1k96axr9q _1k96axr17">
+          <img src="img/dragToMove.png" alt="" width="250px">
+      </span>
+      <h2 class="_1k96axr2n8 _1k96axr2n0 _1k96axr1p8" style="text-align: center; font-weight: bold;">Drag to Explore</h2>
+  </div>        
+</div>
+<!-- DRAG TO MOVE ANIMATION -->
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="DeviceOrientationControlMethod.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
